@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.pagination {
+  width: 500px;
+  display: flex;
+  margin: 50px auto;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+
+}
