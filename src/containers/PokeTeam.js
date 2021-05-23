@@ -15,7 +15,7 @@ export default () => {
             {pokemons.map(poke => (
                 
                 <div className={'sm:flex sm:items-center py-auto px-20'} key={poke.id}>
-                    <div className={"bg-blue-800 rounded shadow-md my-10 mx-10 px-10 py-10"}>
+                    <div className={"bg-blue-800 rounded shadow-md w-full my-10 mx-10 px-10 py-10"}>
 
 
                     <h1 className={'text-4xl text-yellow-300'}>ID: <span className={'text-4xl text-gray-300'}>{poke.order}</span></h1>
